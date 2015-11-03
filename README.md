@@ -1,4 +1,4 @@
-# MyLibrary
+# MadsSDKiOS-ObjectiveC
 
 [![CI Status](http://img.shields.io/travis/LilushFess/MyLibrary.svg?style=flat)](https://travis-ci.org/MADSNL/MadsSDKiOS-ObjectiveC)
 [![Version](https://img.shields.io/cocoapods/v/MyLibrary.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
