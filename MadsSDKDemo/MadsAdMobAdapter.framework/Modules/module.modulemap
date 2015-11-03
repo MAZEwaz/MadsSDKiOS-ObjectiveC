@@ -1,0 +1,6 @@
+framework module MadsAdMobAdapter {
+  umbrella header "MadsAdMobAdapter.h"
+
+  export *
+  module * { export * }
+}
