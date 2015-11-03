@@ -79,4 +79,4 @@ MADS, support@mads.com
 
 ## License
 
-MADSSDKiOS-ObjectiveC is available under the MADS license. See the LICENSE file for more info.
+MADSSDKiOS-ObjectiveC is available under the MIT license. See the LICENSE file for more info.
