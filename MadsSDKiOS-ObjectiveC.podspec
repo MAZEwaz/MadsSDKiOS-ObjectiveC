@@ -12,7 +12,7 @@ s.version          = "4.5.6"
 s.summary          = "Mads SDK iOS."
 
 s.description      = <<-DESC
-Mads SDK iOS
+Mads SDK iOS. Objective C version of MADS Mobile SDK for mobile advertising
 DESC
 
 s.homepage         = "https://github.com/MADSNL/MadsSDKiOS-ObjectiveC"
