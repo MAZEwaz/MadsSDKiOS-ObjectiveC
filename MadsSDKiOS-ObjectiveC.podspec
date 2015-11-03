@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MadsSDKiOS-ObjectiveC"
-s.version          = "4.5.6"
+s.version          = "4.5.6.1"
 s.summary          = "Mads SDK iOS."
 
 s.description      = <<-DESC
