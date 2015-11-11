@@ -74,17 +74,18 @@ delegate:self];
 
 
 ##ChangeLog 
-
-v.4.5.6 October 16 2015
 ========================
+
+##v.4.5.6 October 16 2015
+
 - Added opening url in internal browser from JS code
 - Added opportunity for loading adView without adding it to superview
 
-v.4.5.5 October 7 2015
+##v.4.5.5 October 7 2015
 ========================
 - Fixed when after device rotation or method applicationWillEnterForeground: frame.origin of adView was (0, 0)
 
-v.4.5.4 September 28 2015
+##v.4.5.4 September 28 2015
 ========================
 - Supporting iOS 9.
 - Security improvements(don’t forget to add the NSAppTransportSecurity key in the Info.plist of your app) 
