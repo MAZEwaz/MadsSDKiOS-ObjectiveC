@@ -22,6 +22,10 @@
 		740C203C1B8F054800F512E5 /* MadsTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C20301B8F054800F512E5 /* MadsTabBarController.m */; };
 		740C203F1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C203E1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m */; };
 		740C20421B8F08D600F512E5 /* MadsUpdateInlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */; };
+		74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F841BF5FAC00024E756 /* Security.framework */; };
+		74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */; };
+		74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F881BF5FB400024E756 /* libc++.tbd */; };
+		74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8A1BF5FB4B0024E756 /* libz.tbd */; };
 		74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; };
 		74F9CF121BB964D2002E8A50 /* MadsAdMobAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBAB8B0E19938943000DA7F1 /* clear_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8AFA19938943000DA7F1 /* clear_button.png */; };
@@ -109,6 +113,10 @@
 		740C203E1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsIgnoreLinkViewController.m; sourceTree = "<group>"; };
 		740C20401B8F08D600F512E5 /* MadsUpdateInlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadsUpdateInlineViewController.h; sourceTree = "<group>"; };
 		740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsUpdateInlineViewController.m; sourceTree = "<group>"; };
+		74C91F841BF5FAC00024E756 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74C91F881BF5FB400024E756 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		74C91F8A1BF5FB4B0024E756 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsAdMobAdapter.framework; sourceTree = "<group>"; };
 		BBAB8AFA19938943000DA7F1 /* clear_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_button.png; sourceTree = "<group>"; };
 		BBAB8AFB19938943000DA7F1 /* clear_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear_button@2x.png"; sourceTree = "<group>"; };
@@ -147,9 +155,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */,
+				74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */,
 				BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */,
+				74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */,
 				D8CFA3151A7A4DB2003B6DBB /* Crashlytics.framework in Frameworks */,
 				D8CFA3161A7A4DB2003B6DBB /* Fabric.framework in Frameworks */,
+				74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */,
 				74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,8 +219,12 @@
 		271FBCF3157DE20D005D1C48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74C91F8A1BF5FB4B0024E756 /* libz.tbd */,
+				74C91F881BF5FB400024E756 /* libc++.tbd */,
 				74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */,
 				BBECE7F81AFA47FA005642FB /* MadsSDK.framework */,
+				74C91F841BF5FAC00024E756 /* Security.framework */,
+				74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */,
 				D8CFA3131A7A4DB2003B6DBB /* Crashlytics.framework */,
 				D8CFA3141A7A4DB2003B6DBB /* Fabric.framework */,
 			);
