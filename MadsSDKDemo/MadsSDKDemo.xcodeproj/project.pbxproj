@@ -52,8 +52,6 @@
 		BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBECE7F81AFA47FA005642FB /* MadsSDK.framework */; };
 		D856F6E81A23589D00CC762A /* Amstardam.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D856F6E71A23589D00CC762A /* Amstardam.gpx */; };
 		D88808DE1A0BC1FF004191CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88808DD1A0BC1FF004191CA /* Images.xcassets */; };
-		D8CFA3151A7A4DB2003B6DBB /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CFA3131A7A4DB2003B6DBB /* Crashlytics.framework */; };
-		D8CFA3161A7A4DB2003B6DBB /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CFA3141A7A4DB2003B6DBB /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,8 +144,6 @@
 		BBECE7F81AFA47FA005642FB /* MadsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsSDK.framework; sourceTree = "<group>"; };
 		D856F6E71A23589D00CC762A /* Amstardam.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Amstardam.gpx; path = ../Classes/Amstardam.gpx; sourceTree = "<group>"; };
 		D88808DD1A0BC1FF004191CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MadsSDKDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		D8CFA3131A7A4DB2003B6DBB /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		D8CFA3141A7A4DB2003B6DBB /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +155,6 @@
 				74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */,
 				BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */,
 				74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */,
-				D8CFA3151A7A4DB2003B6DBB /* Crashlytics.framework in Frameworks */,
-				D8CFA3161A7A4DB2003B6DBB /* Fabric.framework in Frameworks */,
 				74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */,
 				74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */,
 			);
@@ -225,8 +219,6 @@
 				BBECE7F81AFA47FA005642FB /* MadsSDK.framework */,
 				74C91F841BF5FAC00024E756 /* Security.framework */,
 				74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */,
-				D8CFA3131A7A4DB2003B6DBB /* Crashlytics.framework */,
-				D8CFA3141A7A4DB2003B6DBB /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
