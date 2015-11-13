@@ -26,6 +26,8 @@
 		74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */; };
 		74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F881BF5FB400024E756 /* libc++.tbd */; };
 		74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8A1BF5FB4B0024E756 /* libz.tbd */; };
+		74C91F8E1BF5FD860024E756 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8C1BF5FD860024E756 /* Crashlytics.framework */; };
+		74C91F8F1BF5FD860024E756 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8D1BF5FD860024E756 /* Fabric.framework */; };
 		74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; };
 		74F9CF121BB964D2002E8A50 /* MadsAdMobAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBAB8B0E19938943000DA7F1 /* clear_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8AFA19938943000DA7F1 /* clear_button.png */; };
@@ -115,6 +117,8 @@
 		74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		74C91F881BF5FB400024E756 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		74C91F8A1BF5FB4B0024E756 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		74C91F8C1BF5FD860024E756 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		74C91F8D1BF5FD860024E756 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsAdMobAdapter.framework; sourceTree = "<group>"; };
 		BBAB8AFA19938943000DA7F1 /* clear_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_button.png; sourceTree = "<group>"; };
 		BBAB8AFB19938943000DA7F1 /* clear_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear_button@2x.png"; sourceTree = "<group>"; };
@@ -154,9 +158,11 @@
 				74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */,
 				74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */,
 				BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */,
+				74C91F8F1BF5FD860024E756 /* Fabric.framework in Frameworks */,
 				74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */,
 				74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */,
 				74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */,
+				74C91F8E1BF5FD860024E756 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +219,8 @@
 		271FBCF3157DE20D005D1C48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74C91F8C1BF5FD860024E756 /* Crashlytics.framework */,
+				74C91F8D1BF5FD860024E756 /* Fabric.framework */,
 				74C91F8A1BF5FB4B0024E756 /* libz.tbd */,
 				74C91F881BF5FB400024E756 /* libc++.tbd */,
 				74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */,
