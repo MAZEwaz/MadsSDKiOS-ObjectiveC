@@ -76,6 +76,9 @@ delegate:self];
 ChangeLog
 ========================
 
+##v.4.5.7 November 13 2015
+- Fixed when mraid.getCurrentPosition() method returns incorrect value
+
 ##v.4.5.6 October 16 2015
 - Added opening url in internal browser from JS code
 - Added opportunity for loading adView without adding it to superview
