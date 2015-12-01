@@ -1,9 +1,9 @@
 # MadsSDKiOS-ObjectiveC
 
-[![CI Status](http://img.shields.io/travis/LilushFess/MyLibrary.svg?style=flat)](https://travis-ci.org/MADSNL/MadsSDKiOS-ObjectiveC)
-[![Version](https://img.shields.io/cocoapods/v/MyLibrary.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
-[![License](https://img.shields.io/cocoapods/l/MyLibrary.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
-[![Platform](https://img.shields.io/cocoapods/p/MyLibrary.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
+[![CI Status](http://img.shields.io/travis/MADSNL/MadsSDKiOS-ObjectiveC.svg?style=flat)](https://travis-ci.org/MADSNL/MadsSDKiOS-ObjectiveC)
+[![Version](https://img.shields.io/cocoapods/v/MadsSDKiOS-ObjectiveC.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
+[![License](https://img.shields.io/cocoapods/l/MadsSDKiOS-ObjectiveC.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
+[![Platform](https://img.shields.io/cocoapods/p/MadsSDKiOS-ObjectiveC.svg?style=flat)](http://cocoapods.org/pods/MadsSDKiOS-ObjectiveC)
 
 ## Usage
 
