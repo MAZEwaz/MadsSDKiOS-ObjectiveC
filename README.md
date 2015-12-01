@@ -17,7 +17,7 @@ MADSSDKiOS-ObjectiveC is available through [CocoaPods](http://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MADSSDKiOS-ObjectiveC"
+pod 'MadsSDKiOS-ObjectiveC'
 ```
 
 ## IMPORTANT: Application Transport Security in iOS 9
