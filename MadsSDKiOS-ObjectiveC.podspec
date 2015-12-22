@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MadsSDKiOS-ObjectiveC"
-s.version          = "4.5.7"
+s.version          = "4.5.8"
 s.summary          = "Mads SDK iOS."
 
 s.description      = <<-DESC
@@ -23,6 +23,6 @@ s.source           = { :git => "https://github.com/MADSNL/MadsSDKiOS-ObjectiveC.
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
-s.vendored_frameworks = 'MadsSDK.framework'
+s.vendored_frameworks = 'MadsSDKDemo/MadsSDK.framework'
 
 end

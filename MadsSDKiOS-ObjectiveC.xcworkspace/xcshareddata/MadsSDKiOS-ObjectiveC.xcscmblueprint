@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5CFA543406E484CDB3748FA9C7FE5C550E728B66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5CFA543406E484CDB3748FA9C7FE5C550E728B66" : 0,
+    "9FE9C17A0ED68670CD647898E0BDAADF86AD3C1C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9DD872D5-2D63-4727-858C-1832089793A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5CFA543406E484CDB3748FA9C7FE5C550E728B66" : "MadsSDKiOS-ObjectiveC\/",
+    "9FE9C17A0ED68670CD647898E0BDAADF86AD3C1C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MadsSDKiOS-ObjectiveC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MadsSDKiOS-ObjectiveC.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MADSNL\/MadsSDKiOS-ObjectiveC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CFA543406E484CDB3748FA9C7FE5C550E728B66"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.madsone.com\/git\/MADS_iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FE9C17A0ED68670CD647898E0BDAADF86AD3C1C"
+    }
+  ]
+}
