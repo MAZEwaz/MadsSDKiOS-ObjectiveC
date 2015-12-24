@@ -50,7 +50,6 @@
 		744C1AE01C2852EE0031FA55 /* MadsAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */; };
 		744C1AE11C2852EE0031FA55 /* MadsAdMobAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		748EA7D81C2947F00038ED11 /* MadsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADF1C2852EE0031FA55 /* MadsSDK.framework */; };
-		74C8B64B1C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8B64A1C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.m */; };
 		74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F841BF5FAC00024E756 /* Security.framework */; };
 		74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */; };
 		74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F881BF5FB400024E756 /* libc++.tbd */; };
@@ -141,8 +140,6 @@
 		740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsUpdateInlineViewController.m; sourceTree = "<group>"; };
 		744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsAdMobAdapter.framework; sourceTree = "<group>"; };
 		744C1ADF1C2852EE0031FA55 /* MadsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsSDK.framework; sourceTree = "<group>"; };
-		74C8B6491C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadsDemoViewabilityViewController.h; sourceTree = "<group>"; };
-		74C8B64A1C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsDemoViewabilityViewController.m; sourceTree = "<group>"; };
 		74C91F841BF5FAC00024E756 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		74C91F881BF5FB400024E756 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -297,7 +294,6 @@
 		740C20101B8F054800F512E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				74C8B6481C0C77DF0074D0C2 /* Viewability */,
 				740C20111B8F054800F512E5 /* BaseViewController.h */,
 				740C20121B8F054800F512E5 /* BaseViewController.m */,
 				740C20131B8F054800F512E5 /* CreativeViewController.h */,
@@ -407,15 +403,6 @@
 				740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */,
 			);
 			path = UpdateInline;
-			sourceTree = "<group>";
-		};
-		74C8B6481C0C77DF0074D0C2 /* Viewability */ = {
-			isa = PBXGroup;
-			children = (
-				74C8B6491C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.h */,
-				74C8B64A1C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.m */,
-			);
-			path = Viewability;
 			sourceTree = "<group>";
 		};
 		BBAB8AF819938943000DA7F1 /* Resources */ = {
@@ -587,7 +574,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ..\ncd ..\n\nrm -Rf \"Archives/ArchiveFiles/MadsSDKDemo\"\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo\" \"Archives/ArchiveFiles\"\n\nARCHIVE_PATH=\"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\nrm -Rf   \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\nmkdir \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/Documentation\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/MadsSwiftTest\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/ChangeLog.txt\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README.md\"       \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README_FIRST.md\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncd \"Archives/\"\nzip -vr \"MadsSDKv${CURRENT_PROJECT_VERSION}.zip\" \"MadsSDKv${CURRENT_PROJECT_VERSION}/\" -x \"*.DS_Store\"";
+			shellScript = "cd ..\ncd ..\n\nrm -Rf \"Archives/ArchiveFiles/MadsSDKDemo\"\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo\" \"Archives/ArchiveFiles\"\nrm -Rf \"Archives/ArchiveFiles/MadsSDK.framework\"\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo/MadsSDK.framework\" \"Archives/ArchiveFiles\"\n\nARCHIVE_PATH=\"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\nrm -Rf   \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\nmkdir \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"MadsSDKiOS-ObjectiveC/MadsSDKDemo/MadsSDK.framework\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/Documentation\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/MadsSwiftTest\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/ChangeLog.txt\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README.md\"       \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README_FIRST.md\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncd \"Archives/\"\nzip -vr \"MadsSDKv${CURRENT_PROJECT_VERSION}.zip\" \"MadsSDKv${CURRENT_PROJECT_VERSION}/\" -x \"*.DS_Store\"";
 		};
 		748EA7E21C295FE50038ED11 /* CocoapodRelease */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -632,7 +619,6 @@
 				740C20421B8F08D600F512E5 /* MadsUpdateInlineViewController.m in Sources */,
 				271FBD40157DE6E7005D1C48 /* AdConfigView.m in Sources */,
 				740C203C1B8F054800F512E5 /* MadsTabBarController.m in Sources */,
-				74C8B64B1C0C77FE0074D0C2 /* MadsDemoViewabilityViewController.m in Sources */,
 				740C20371B8F054800F512E5 /* InterstitialPageViewController.m in Sources */,
 				740C20321B8F054800F512E5 /* BaseViewController.m in Sources */,
 				BBE94BAE1B4BDB2600775E28 /* MadsAdCell.m in Sources */,
@@ -821,6 +807,7 @@
 		748EA7E01C295FDF0038ED11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -828,6 +815,7 @@
 		748EA7E11C295FDF0038ED11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -860,6 +848,7 @@
 				748EA7DC1C295EFD0038ED11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748EA7DF1C295FDF0038ED11 /* Build configuration list for PBXAggregateTarget "CocoapodRelease" */ = {
 			isa = XCConfigurationList;
@@ -868,6 +857,7 @@
 				748EA7E11C295FDF0038ED11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

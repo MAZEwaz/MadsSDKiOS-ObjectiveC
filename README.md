@@ -76,6 +76,11 @@ delegate:self];
 ChangeLog
 ========================
 
+##v.4.5.8 December 24 2015
+- Fixed when browser is not opened from window.location.href
+- Added Viewability tracking
+- Performance updates
+
 ##v.4.5.7 November 13 2015
 - Fixed when mraid.getCurrentPosition() method returns incorrect value
 

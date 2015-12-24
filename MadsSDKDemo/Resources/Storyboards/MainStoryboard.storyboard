@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="3Rn-V5-Itf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="3Rn-V5-Itf">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Inline-->
@@ -16,11 +16,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="bottom" image="Icon.png" id="bdS-uD-x0T">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Inline" image="first.png" id="GQE-ng-xuY"/>
@@ -40,11 +38,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="bottom" image="Icon.png" id="CZ8-5Q-iZC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Custom Inline" image="first.png" id="b9F-Ed-eig"/>
@@ -59,7 +55,6 @@
                 <navigationController definesPresentationContext="YES" id="3Rn-V5-Itf" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="auC-8d-BRk">
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.9647059440612793" green="0.55686277151107788" blue="0.12549020349979401" alpha="1" colorSpace="deviceRGB"/>
@@ -82,7 +77,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="2Ty-sa-6BQ">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -95,7 +89,6 @@
                         <segue destination="bf6-8L-HR1" kind="relationship" relationship="viewControllers" id="5ie-tk-lag"/>
                         <segue destination="IJK-d7-0GX" kind="relationship" relationship="viewControllers" id="Wz3-8l-x9N"/>
                         <segue destination="4qH-n4-4yz" kind="relationship" relationship="viewControllers" id="pKW-eG-SDV"/>
-                        <segue destination="6AP-AE-U8I" kind="relationship" relationship="viewControllers" id="nNm-0n-0hU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Lg-q3-sbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,7 +106,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="A5D-HG-IaK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.96470594409999999" green="0.55686277149999996" blue="0.12549020350000001" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,7 +113,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" keyboardType="alphabet" keyboardAppearance="alert"/>
                             </textView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.13333334028720856" green="0.11764706671237946" blue="0.12156863510608673" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Creative HTML" id="hx0-EN-iTX">
@@ -152,7 +143,6 @@
                 <navigationController definesPresentationContext="YES" id="D9K-id-xg2" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="t9R-Ol-eeD">
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.96470594409999999" green="0.55686277149999996" blue="0.12549020350000001" alpha="1" colorSpace="deviceRGB"/>
@@ -177,11 +167,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="bottom" image="Icon.png" id="WAa-PA-Ud4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Overlay" image="first.png" id="q8a-eg-oqy"/>
@@ -189,93 +177,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbA-5x-hUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="339" y="362"/>
-        </scene>
-        <!--Viewability-->
-        <scene sceneID="bqv-wV-Iqa">
-            <objects>
-                <viewController id="6AP-AE-U8I" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DFo-Ys-Egy">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SR7-Wv-C0v">
-                                <rect key="frame" x="124" y="206" width="73" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="Touch me"/>
-                                <connections>
-                                    <segue destination="A6B-CC-MYV" kind="modal" id="2DM-7t-ObD"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Viewability" image="first.png" id="Sqs-s9-moy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Avy-r2-a0j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-176" y="1553"/>
-        </scene>
-        <!--Mads Demo Viewability View Controller-->
-        <scene sceneID="sgn-zf-WCh">
-            <objects>
-                <viewController id="A6B-CC-MYV" customClass="MadsDemoViewabilityViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CZL-h5-cpP">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jru-dU-56O">
-                                <rect key="frame" x="227" y="31" width="73" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="Close"/>
-                                <connections>
-                                    <action selector="close:" destination="A6B-CC-MYV" eventType="touchUpInside" id="iUR-cU-q4d"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YT9-4G-phB">
-                                <rect key="frame" x="0.0" y="0.0" width="219" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zWO-CJ-ueu">
-                                <rect key="frame" x="0.0" y="114" width="320" height="414"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="LEW-Yq-g1b">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LEW-Yq-g1b" id="tFN-27-1LU">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <animations/>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="A6B-CC-MYV" id="iVk-Mv-hfG"/>
-                                    <outlet property="delegate" destination="A6B-CC-MYV" id="IDj-7K-tg8"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="infoLabel" destination="YT9-4G-phB" id="xje-4r-VdW"/>
-                        <outlet property="tableView" destination="zWO-CJ-ueu" id="mko-8o-Pox"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DVT-VK-u4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-176" y="2267"/>
         </scene>
         <!--Update Inline-->
         <scene sceneID="w5a-Ct-50q">
@@ -292,7 +193,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5SB-bZ-6Gx">
                                         <rect key="frame" x="8" y="8" width="140" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Update">
@@ -306,7 +206,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vaa-4x-s22">
                                         <rect key="frame" x="172" y="8" width="140" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Update Time Interval">
                                             <color key="titleColor" red="0.94901960780000005" green="0.48627450979999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -319,7 +218,6 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Interval:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ymg-bR-U7i">
                                         <rect key="frame" x="8" y="60" width="140" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.48627450979999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -327,23 +225,19 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" minimumFontSize="17" id="JaJ-mU-QkQ">
                                         <rect key="frame" x="172" y="56" width="140" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <color key="textColor" red="0.94901960780000005" green="0.48627450979999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="6qg-uV-hA5">
                                 <rect key="frame" x="0.0" y="100" width="320" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Update Inline" image="first.png" id="rYV-x6-CgL"/>
@@ -366,7 +260,6 @@
                     <view key="view" contentMode="scaleToFill" id="4a0-xb-z4f">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Interstitial" image="first.png" id="ilL-eY-3DG"/>
@@ -386,10 +279,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" image="Default.png" id="PPQ-Gw-cxx">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <animations/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="second.png" id="cmj-C9-1iv"/>
@@ -413,7 +304,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RJ7-si-2b2">
                                         <rect key="frame" x="8" y="7" width="140" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Block redirection">
                                             <color key="titleColor" red="0.94901960780000005" green="0.48627450979999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -426,7 +316,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Cys-Mo-l2P">
                                         <rect key="frame" x="172" y="8" width="140" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Update">
                                             <color key="titleColor" red="0.94901960780000005" green="0.48627450979999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -437,17 +326,14 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="Pjy-zS-iC2">
                                 <rect key="frame" x="0.0" y="50" width="320" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Ignore Link" image="first.png" id="lgy-fu-oo3"/>
@@ -473,7 +359,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D5P-EM-IjS">
                                 <rect key="frame" x="174" y="12" width="130" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <state key="normal" title="Update Overlay">
                                     <color key="titleColor" red="0.94901960784313721" green="0.47843137254901963" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -485,7 +370,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dHo-qq-a3h">
                                 <rect key="frame" x="16" y="12" width="130" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <state key="normal" title="Update Inline">
                                     <color key="titleColor" red="0.94901960784313721" green="0.48627450980392156" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -497,11 +381,9 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CBT-W3-sKc">
                                 <rect key="frame" x="0.0" y="50" width="319" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Double ads" image="first.png" id="kT2-H2-LMC"/>
