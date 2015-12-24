@@ -807,7 +807,7 @@
 		748EA7E01C295FDF0038ED11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 4.5.8;
+				CURRENT_PROJECT_VERSION = 4.5.8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -815,7 +815,7 @@
 		748EA7E11C295FDF0038ED11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 4.5.8;
+				CURRENT_PROJECT_VERSION = 4.5.8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
