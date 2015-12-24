@@ -588,7 +588,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ..\npod lib lint\ngit add -A && git commit -m \"${CURRENT_PROJECT_VERSION}\"\ngit tag \"${CURRENT_PROJECT_VERSION}\"\ngit push --tags\ngit push\npod spec lint MadsSDKiOS-ObjectiveC.podspec\npod trunk push MadsSDKiOS-ObjectiveC.podspec";
+			shellScript = "cd ..\npod lib lint\ngit add -A && git commit -m \"${CURRENT_PROJECT_VERSION}\"\ngit tag \"${CURRENT_PROJECT_VERSION}\"\ngit push origin --tags\ngit push\npod spec lint MadsSDKiOS-ObjectiveC.podspec\npod trunk push MadsSDKiOS-ObjectiveC.podspec";
 		};
 		D8CFA3121A7A4D9E003B6DBB /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
