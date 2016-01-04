@@ -1,0 +1,6 @@
+module MadsSDK {
+    header "MadsSDK.h"
+    header "MadsAdView.h"
+    header "MadsAdViewDelegate.h"
+    header "MadsAdServer.h"
+}
