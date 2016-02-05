@@ -8,7 +8,6 @@
 
 #import "MadsAdModalViewController.h"
 #import <MadsSDK/MadsAdView.h>
-//#import <MadsAdMobAdapter/MadsAdMobAdapter.h>
 
 @interface MadsAdModalViewController ()
 

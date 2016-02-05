@@ -6,6 +6,31 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		748EA7D91C295EFD0038ED11 /* Release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 748EA7DA1C295EFD0038ED11 /* Build configuration list for PBXAggregateTarget "Release" */;
+			buildPhases = (
+				748EA7DD1C295F010038ED11 /* Archiving */,
+			);
+			dependencies = (
+			);
+			name = Release;
+			productName = Release;
+		};
+		748EA7DE1C295FDF0038ED11 /* CocoapodRelease */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 748EA7DF1C295FDF0038ED11 /* Build configuration list for PBXAggregateTarget "CocoapodRelease" */;
+			buildPhases = (
+				748EA7E21C295FE50038ED11 /* CocoapodRelease */,
+			);
+			dependencies = (
+			);
+			name = CocoapodRelease;
+			productName = CocoapodRelease;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		220D2BB6190110BE001F04CC /* MadsDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 220D2BB4190110BE001F04CC /* MadsDemoAppDelegate.m */; };
 		271FBD40157DE6E7005D1C48 /* AdConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FBD3F157DE6E7005D1C48 /* AdConfigView.m */; };
@@ -22,14 +47,15 @@
 		740C203C1B8F054800F512E5 /* MadsTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C20301B8F054800F512E5 /* MadsTabBarController.m */; };
 		740C203F1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C203E1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m */; };
 		740C20421B8F08D600F512E5 /* MadsUpdateInlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */; };
+		744C1AE01C2852EE0031FA55 /* MadsAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */; };
+		744C1AE11C2852EE0031FA55 /* MadsAdMobAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		748EA7D81C2947F00038ED11 /* MadsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C1ADF1C2852EE0031FA55 /* MadsSDK.framework */; };
 		74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F841BF5FAC00024E756 /* Security.framework */; };
 		74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */; };
 		74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F881BF5FB400024E756 /* libc++.tbd */; };
 		74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8A1BF5FB4B0024E756 /* libz.tbd */; };
 		74C91F8E1BF5FD860024E756 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8C1BF5FD860024E756 /* Crashlytics.framework */; };
 		74C91F8F1BF5FD860024E756 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C91F8D1BF5FD860024E756 /* Fabric.framework */; };
-		74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; };
-		74F9CF121BB964D2002E8A50 /* MadsAdMobAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBAB8B0E19938943000DA7F1 /* clear_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8AFA19938943000DA7F1 /* clear_button.png */; };
 		BBAB8B0F19938943000DA7F1 /* clear_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8AFB19938943000DA7F1 /* clear_button@2x.png */; };
 		BBAB8B1019938943000DA7F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8AFC19938943000DA7F1 /* Default-568h@2x.png */; };
@@ -51,7 +77,6 @@
 		BBAB8B2019938943000DA7F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAB8B0D19938943000DA7F1 /* MainStoryboard.storyboard */; };
 		BBAB8B291993894C000DA7F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB8B261993894C000DA7F1 /* main.m */; };
 		BBE94BAE1B4BDB2600775E28 /* MadsAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE94BAD1B4BDB2600775E28 /* MadsAdCell.m */; };
-		BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBECE7F81AFA47FA005642FB /* MadsSDK.framework */; };
 		D856F6E81A23589D00CC762A /* Amstardam.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D856F6E71A23589D00CC762A /* Amstardam.gpx */; };
 		D88808DE1A0BC1FF004191CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88808DD1A0BC1FF004191CA /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -63,7 +88,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				74F9CF121BB964D2002E8A50 /* MadsAdMobAdapter.framework in Embed Frameworks */,
+				744C1AE11C2852EE0031FA55 /* MadsAdMobAdapter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,13 +138,14 @@
 		740C203E1B8F08BC00F512E5 /* MadsIgnoreLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsIgnoreLinkViewController.m; sourceTree = "<group>"; };
 		740C20401B8F08D600F512E5 /* MadsUpdateInlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadsUpdateInlineViewController.h; sourceTree = "<group>"; };
 		740C20411B8F08D600F512E5 /* MadsUpdateInlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsUpdateInlineViewController.m; sourceTree = "<group>"; };
+		744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsAdMobAdapter.framework; sourceTree = "<group>"; };
+		744C1ADF1C2852EE0031FA55 /* MadsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsSDK.framework; sourceTree = "<group>"; };
 		74C91F841BF5FAC00024E756 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		74C91F881BF5FB400024E756 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		74C91F8A1BF5FB4B0024E756 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		74C91F8C1BF5FD860024E756 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		74C91F8D1BF5FD860024E756 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsAdMobAdapter.framework; sourceTree = "<group>"; };
 		BBAB8AFA19938943000DA7F1 /* clear_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_button.png; sourceTree = "<group>"; };
 		BBAB8AFB19938943000DA7F1 /* clear_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear_button@2x.png"; sourceTree = "<group>"; };
 		BBAB8AFC19938943000DA7F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -145,7 +171,6 @@
 		BBAB8B261993894C000DA7F1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBE94BAC1B4BDB2600775E28 /* MadsAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadsAdCell.h; sourceTree = "<group>"; };
 		BBE94BAD1B4BDB2600775E28 /* MadsAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadsAdCell.m; sourceTree = "<group>"; };
-		BBECE7F81AFA47FA005642FB /* MadsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MadsSDK.framework; sourceTree = "<group>"; };
 		D856F6E71A23589D00CC762A /* Amstardam.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Amstardam.gpx; path = ../Classes/Amstardam.gpx; sourceTree = "<group>"; };
 		D88808DD1A0BC1FF004191CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MadsSDKDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -155,13 +180,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748EA7D81C2947F00038ED11 /* MadsSDK.framework in Frameworks */,
 				74C91F8B1BF5FB4B0024E756 /* libz.tbd in Frameworks */,
 				74C91F891BF5FB400024E756 /* libc++.tbd in Frameworks */,
-				BBECE7F91AFA47FA005642FB /* MadsSDK.framework in Frameworks */,
 				74C91F8F1BF5FD860024E756 /* Fabric.framework in Frameworks */,
 				74C91F861BF5FAC00024E756 /* Security.framework in Frameworks */,
 				74C91F871BF5FAC00024E756 /* SystemConfiguration.framework in Frameworks */,
-				74F9CF111BB964D2002E8A50 /* MadsAdMobAdapter.framework in Frameworks */,
+				744C1AE01C2852EE0031FA55 /* MadsAdMobAdapter.framework in Frameworks */,
 				74C91F8E1BF5FD860024E756 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +225,8 @@
 		271FBCE5157DE20D005D1C48 = {
 			isa = PBXGroup;
 			children = (
+				744C1ADE1C2852EE0031FA55 /* MadsAdMobAdapter.framework */,
+				744C1ADF1C2852EE0031FA55 /* MadsSDK.framework */,
 				271FBCF3157DE20D005D1C48 /* Frameworks */,
 				271FBCFA157DE20D005D1C48 /* Classes */,
 				BBAB8AF819938943000DA7F1 /* Resources */,
@@ -223,8 +250,6 @@
 				74C91F8D1BF5FD860024E756 /* Fabric.framework */,
 				74C91F8A1BF5FB4B0024E756 /* libz.tbd */,
 				74C91F881BF5FB400024E756 /* libc++.tbd */,
-				74F9CF101BB964D2002E8A50 /* MadsAdMobAdapter.framework */,
-				BBECE7F81AFA47FA005642FB /* MadsSDK.framework */,
 				74C91F841BF5FAC00024E756 /* Security.framework */,
 				74C91F851BF5FAC00024E756 /* SystemConfiguration.framework */,
 			);
@@ -455,7 +480,7 @@
 				271FBCEE157DE20D005D1C48 /* Resources */,
 				271FBCEC157DE20D005D1C48 /* Sources */,
 				271FBCED157DE20D005D1C48 /* Frameworks */,
-				D8CFA3121A7A4D9E003B6DBB /* ShellScript */,
+				D8CFA3121A7A4D9E003B6DBB /* Fabric */,
 				BBE8FF691AEF7D9E00E9640F /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -478,6 +503,12 @@
 					271FBCEF157DE20D005D1C48 = {
 						DevelopmentTeam = AE4DWUL5WW;
 					};
+					748EA7D91C295EFD0038ED11 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					748EA7DE1C295FDF0038ED11 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 271FBCEA157DE20D005D1C48 /* Build configuration list for PBXProject "MadsSDKDemo" */;
@@ -493,6 +524,8 @@
 			projectRoot = "";
 			targets = (
 				271FBCEF157DE20D005D1C48 /* MadsSDKDemo */,
+				748EA7D91C295EFD0038ED11 /* Release */,
+				748EA7DE1C295FDF0038ED11 /* CocoapodRelease */,
 			);
 		};
 /* End PBXProject section */
@@ -529,13 +562,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D8CFA3121A7A4D9E003B6DBB /* ShellScript */ = {
+		748EA7DD1C295F010038ED11 /* Archiving */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = Archiving;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\ncd ..\n\nrm -Rf \"Archives/ArchiveFiles/MadsSDKDemo\"\ncp -R \"MadsSDKiOSDemoSampleOld/MadsSDKDemo\" \"Archives/ArchiveFiles\"\nrm -Rf \"Archives/ArchiveFiles/MadsSDK.framework\"\ncp -R \"MadsSDKiOSDemoSampleOld/MadsSDKDemo/MadsSDK.framework\" \"Archives/ArchiveFiles\"\n\nARCHIVE_PATH=\"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\nrm -Rf   \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\nmkdir \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncp -R \"MadsSDKiOSDemoSampleOld/MadsSDKDemo\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"MadsSDKiOSDemoSampleOld/MadsSDKDemo/MadsSDK.framework\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/Documentation\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp -R \"Archives/ArchiveFiles/MadsSwiftTest\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/ChangeLog.txt\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README.md\"       \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\ncp \"Archives/ArchiveFiles/README_FIRST.md\" \"Archives/MadsSDKv${CURRENT_PROJECT_VERSION}\"\n\ncd \"Archives/\"\nzip -vr \"MadsSDKv${CURRENT_PROJECT_VERSION}.zip\" \"MadsSDKv${CURRENT_PROJECT_VERSION}/\" -x \"*.DS_Store\"";
+		};
+		748EA7E21C295FE50038ED11 /* CocoapodRelease */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = CocoapodRelease;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\npod lib lint\ngit add -A && git commit -m \"${CURRENT_PROJECT_VERSION}\"\ngit tag \"${CURRENT_PROJECT_VERSION}\"\ngit push origin --tags\ngit push\npod spec lint MadsSDKiOS-ObjectiveC.podspec\npod trunk push MadsSDKiOS-ObjectiveC.podspec";
+		};
+		D8CFA3121A7A4D9E003B6DBB /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,8 +680,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PROVISIONING_PROFILE = "c3eedb4d-a950-434f-9f45-486fe1f88e33";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c3eedb4d-a950-434f-9f45-486fe1f88e33";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -654,8 +716,8 @@
 				INFOPLIST_FILE = "Supporting Files/MadsSDKDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "c3eedb4d-a950-434f-9f45-486fe1f88e33";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c3eedb4d-a950-434f-9f45-486fe1f88e33";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -700,8 +762,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,9 +782,41 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mads.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MadsSDKDemo;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "cfdfe020-db91-48f6-8a5c-ffa05a84e641";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		748EA7DB1C295EFD0038ED11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		748EA7DC1C295EFD0038ED11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		748EA7E01C295FDF0038ED11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		748EA7E11C295FDF0038ED11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4.5.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -743,6 +837,24 @@
 			buildConfigurations = (
 				271FBD38157DE20D005D1C48 /* Debug */,
 				271FBD39157DE20D005D1C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748EA7DA1C295EFD0038ED11 /* Build configuration list for PBXAggregateTarget "Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EA7DB1C295EFD0038ED11 /* Debug */,
+				748EA7DC1C295EFD0038ED11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748EA7DF1C295FDF0038ED11 /* Build configuration list for PBXAggregateTarget "CocoapodRelease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EA7E01C295FDF0038ED11 /* Debug */,
+				748EA7E11C295FDF0038ED11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

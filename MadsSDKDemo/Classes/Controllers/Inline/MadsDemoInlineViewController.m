@@ -77,6 +77,7 @@ static float adY;
     self.adView.autoresizingMask   = UIViewAutoresizingFlexibleWidth;
     self.adView.updateTimeInterval = 0.0;
     self.adView.madsAdType         = MadsAdTypeInline;
+    self.adView.useInternalBrowser = NO;
     adY = yPos;
 //    [self.view insertSubview:self.adView belowSubview:self.gridView];
    // [self.view addSubview:self.adView];

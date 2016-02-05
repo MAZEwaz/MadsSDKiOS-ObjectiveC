@@ -339,6 +339,24 @@ typedef NS_ENUM(NSUInteger, MadsAdAnimationType) {
 /** A Boolean value that determines whether the ad is in the process of loading. */
 @property (nonatomic, readonly) BOOL                    isLoading;
 
+/**
+ *  Default value 1
+ Put this value for start tracking viewability from another second.
+ */
+@property (assign, nonatomic) NSInteger viewabilityStartTime;
+
+/**
+ *  Default value 0.5
+ Minimum viewable percentage for formats up to 242.499 pixels. Value range: 0-1.0.
+ */
+@property (assign, nonatomic) CGFloat viewabilityPctSmall;
+
+/**
+ *  Default value 0.3
+ Minimum viewable percentage for formats greater than 242.500 pixels. Value range: 0-1.0.
+ */
+@property (assign, nonatomic) CGFloat viewabilityPctBig;
+
 /** Starts to update the ad content immediately.
  
  Call this method if you want to request an immediate update of the ad content (for example, after setting site and zone or changing adServerUrl). If ad is already in the process of loading it will be interrupted and a new request will be send.

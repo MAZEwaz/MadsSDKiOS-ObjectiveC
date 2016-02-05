@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-static NSString *const kMadsSDKVersion = @"v4.5.7";
+static NSString *const kMadsSDKVersion = @"v4.5.10";
 
 
 @interface MadsAdServer : NSObject

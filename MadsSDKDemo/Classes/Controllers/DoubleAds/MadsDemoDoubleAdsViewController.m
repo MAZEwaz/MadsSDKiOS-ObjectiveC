@@ -196,6 +196,8 @@
     [self.tableView reloadData];
 }
 
+#pragma mark - Ad View
+
 - (void)didReceiveAd:(id)sender {
     MadsAdView *adView = (MadsAdView *)sender;
     adView.hidden = NO;
