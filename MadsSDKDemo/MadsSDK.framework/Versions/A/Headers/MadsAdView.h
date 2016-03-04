@@ -22,15 +22,35 @@
 #endif
 
 
-
+/**
+ *  AdLogMode
+ */
 typedef NS_ENUM(NSUInteger, AdLogMode) {
-        AdLogModeNone,
-        AdLogModeErrorsOnly,
-        AdLogModeAll
+    /**
+     *  Without logs
+     */
+    AdLogModeNone,
+    /**
+     *  Only error is logged
+     */
+    AdLogModeErrorsOnly,
+    /**
+     *  All logs
+     */
+    AdLogModeAll
 };
 
+/**
+ *  Type for ad
+ */
 typedef NS_ENUM(NSUInteger, MadsAdType) {
+    /**
+     *  Inline
+     */
     MadsAdTypeInline,
+    /**
+     *  Overlay
+     */
     MadsAdTypeOverlay
 };
 
