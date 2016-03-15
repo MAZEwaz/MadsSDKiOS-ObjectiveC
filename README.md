@@ -75,6 +75,13 @@ delegate:self];
 ChangeLog
 ========================
 
+##v.4.5.10 March 15 2016
+- Add application version in request
+- Removed static fields from request
+
+##v.4.5.9 January 6 2016
+- Update mraid.getCurrentPosition() method implementation
+
 ##v.4.5.8 December 24 2015
 - Fixed when browser is not opened from window.location.href
 - Added Viewability tracking
